@@ -1,0 +1,870 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>United Lab</title>
+	<meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+     <!-- <link rel="stylesheet" type="text/css" href="unit.css"> -->
+     
+     <link rel="stylesheet" type="text/css" href="unit.css">
+    <link rel="stylesheet" type="text/css" href="unit.css">
+    <!-- <script>
+    	$(document).ready(function(){
+    		$('#icon').click(function(){
+    			$('ul').toggleClass('show');
+    		});
+    	});
+    </script> -->
+
+    <style>
+      *{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+ }
+ .bgcolr{
+  background: transparent;
+     transition: 0.2s ease;
+ }
+ .bgcolr.scroll{
+  background-color: green;
+
+ }
+
+  #main{
+  width: 100%;
+  height: 100vh;
+  background-image: url('https://cdn.pixabay.com/photo/2014/05/03/00/59/photography-336685__340.jpg');
+  background-size: cover;
+
+ }
+
+ 
+ .wave:before{
+  content: '';
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  width: 100%;
+  height: 150px;
+  background: url('https://www.unitedsoftlabs.com/public//assets/img/waves-shape.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+ }
+ 
+ .navbar .navbar-brand{
+  margin-left:5%;
+
+
+ }
+
+
+
+.navbar .navbar-nav{
+  font-size: 15px;
+  text-transform: uppercase;
+  margin-right: 11%;
+  font-weight: bold;
+}  
+
+
+ .nav-item .nav-link{
+  margin-left: 18px;
+  color: white!important;
+  margin-bottom: 2%;
+
+
+}
+.nav-link a:hover{
+    text-decoration: none;
+}
+
+
+.banner h1{
+  padding-top: 25%;
+  padding-left: 15%;
+  color: white;
+  font-size: 45px;
+  font-weight:  bold;
+  text-align: center;
+}
+.banner p{
+  font-size: 20px;
+  color: white;
+  padding-left: 8%;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+
+}
+.cart{
+    margin-top: 25%;
+    font-size: 25px;
+    margin-left: 20%;
+    color: white;
+    font-weight: bold;
+}
+.cartp{
+    font-size: 21px;
+    margin-left: 20%;
+    color: white;
+
+}
+ 
+ 
+ .colr{
+  background: green;
+}
+ .colr:hover{
+  background: darkgreen;
+}
+ .anyy .colr1{
+  background: yellow;
+}
+.anyy .colr1:hover{
+    background: red;
+}
+
+
+#imge1 h1{
+  text-align: center;
+  padding-top: 8%;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#imge1 h5{
+  text-align: center;
+  padding-top: 1%;
+
+}
+
+.info h3 {
+  font-weight: bold;
+  margin-left: 4%;
+    }
+ .info h2{
+  margin-left: 4%;
+ }
+ .info p{
+  margin-left: 4%;
+  color: gray;
+ }
+.info ul{
+  margin-left: 4%;
+}
+
+.formm h1{
+  margin-top: 8%;
+}
+.form1{
+  text-align: center;
+  padding-top: 6%;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+
+.inf h4{
+     border-bottom: 1px solid black;
+     margin-top: 5%;
+}
+.inf li{
+  list-style: none;
+}
+.icon .fa-phone{
+  font-size: 40px;
+}
+.fa-map-marker{
+  font-size: 40px;
+}
+
+
+
+.im{
+  padding-top: 20%;
+  margin-top: 20%;
+
+
+}
+.foot p{
+  padding-top: 8%;
+  font-size: 18px;
+  color: white;
+}
+
+.foot h2{
+  padding-top: 40%;
+  color: white;
+  margin-left: 21%;
+  font-weight: bold;
+}
+.foot ul{
+  margin-left: 25%;
+}
+.foot li{
+  list-style: none;
+  font-size: 20px;
+    padding-bottom: 5%;
+  
+}
+.foot li a{
+  text-decoration: none;
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+
+
+.website{
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+}
+
+.fa-home{
+  font-size: 35px;
+  color: white;
+}
+
+.fa-envelope-o{
+  color: white;
+  font-size: 35px;
+}
+
+ .fa-phone{
+  color: white;
+}
+
+
+.footr a{
+  list-style: none;
+  color:black;
+  text-decoration: none;
+}
+.footr p{
+  padding-top: 5%;
+  padding-left: 5%;
+}
+
+#btnscroll{
+  position: fixed;
+  bottom: 5%;
+  right: 1%;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: red;
+  box-shadow: 0 0 10px rgba(0,0,0,0.25);
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+#btnscroll:active{
+  background: red;
+}
+
+
+.aboutimge img{
+  padding-top: 40%;
+}
+
+.abotpara h1{
+  padding-top: 40%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 950px ){
+  .navbar .navbar-brand img{
+  width: 80px;
+  height: 60px;
+  margin-right: 200px;
+ }
+
+}
+@media (max-width: 500px ){
+  .navbar .navbar-brand img
+  {
+    margin-right: 150px;
+    }
+  .nav-item .nav-link
+  {
+    border-bottom: 1px solid black;
+  } 
+
+  #btnscroll{
+  position: fixed;
+  bottom: 10%;
+  right: 0.2%;
+  width: 10px;
+  height: 10px;
+  border-radius: 8%;
+  background: red;
+  box-shadow: 0 0 10px rgba(0,0,0,0.25);
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+    #btnscroll:active{
+  background: red;
+      }
+  
+}
+
+@media (max-width: 768px){
+  .nav-item .nav-link{
+   border-bottom: 1px solid black;
+}
+    
+#btnscroll{
+  position: fixed;
+  bottom: 10%;
+  right: 1%;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: red;
+  box-shadow: 0 0 10px rgba(0,0,0,0.25);
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+#btnscroll:active{
+  background: red;
+}
+}
+    </style>
+</head>
+<body> 
+<!-- 
+	  <nav>
+	  	<label class="logo">Logo</label>
+	  	<ul>
+	  		
+	  		<li><a href="#">Home</a></li>
+	  		<li><a href="#">About</a></li>
+	  		<li><a href="#">Services</a></li>
+	  		<li><a href="#">Contact</a></li>
+	  		<li><a href="#">Feedback</a></li>
+	  	</ul>
+	  	<label id="icon">
+	  		<i class="fa fa-bars"></i>
+	  	</label>
+	  </nav>
+ -->
+  <section class="wave">
+    <div id="main">
+ <nav class="navbar navbar-expand-lg navbar-light fixed-top bgcolr">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand" href="#">
+  	<img src="https://www.unitedsoftlabs.com/public//assets/img/logo-black.png" alt="pci" class="img-fluid">
+  </a>
+
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+      
+      <li class="nav-item">
+        <a class="nav-link" href="#index.html">Home</a>
+      </li>
+      
+
+      <li class="nav-item">
+        <a class="nav-link" href="#Product">Products</a>
+      </li>
+      
+
+      <li class="nav-item">
+        <a class="nav-link" href="#imge1">Overview</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="About.html">About</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="#contact">Contact</a>
+      </li>
+      
+      
+    </ul>
+   
+  </div>
+
+</nav>
+      	<div class="container">
+      		<div class="row">
+      			 <div class="col-md-6 col-md-8 offset-lg-2">
+      	 <div class="banner" data-aos="fade-right">
+      	<h1 class="mt-5">Welcome to United Softlabs!</h1>
+      	<p> United softlabs is a technology company with a team of engineers and programmers who are well trained and use state-of-the-art technology to achieve the desired results.</p>
+      </div>
+      	</div>
+      	</div>
+      </div>
+                      
+</div>
+</section>
+
+   <button id="btnscroll">
+
+   	<i class="fa fa-arrow-up" aria-hidden="true"></i>
+
+   </button>
+
+   <script>
+   	const btnscroll = document.querySelector("#btnscroll");
+
+   	btnscroll.addEventListener("click",function(){
+   		window.scrollTo(0,0);
+
+   	  // $("html,body").animate({scrollTo:0},"slow");
+   	});
+   </script>
+
+
+ <!--   End Navigation -->
+  
+  
+     <section class="about pt-5">
+    	<div class="container">
+    		<div class="row">
+    			<div class="col-lg-7 col-md-8 col-sm-12">
+    				<h3>Discover A Difference With Our Projects</h3>
+    				<p>Our aim, vision, and core business values affirm that we are in a relentless pursuit of perfection. Our team of professionals are striving hard to bring a difference in people’s life. </p>
+    			</div>
+    		</div>
+    	</div>
+    </section> 
+
+   <!--  New Section -->
+
+    <section class="servis">
+   	<div class="container">
+   		<div class="row">
+   			<div class="col-lg-4 col-md-4 col-sm-4">
+   				<a href="#"><img src="https://www.unitedsoftlabs.com/public//assets/img/clients/swiftly.png" class="img-fluid"></a>
+   			</div>
+
+   			<div class="col-lg-4 col-md-4 col-sm-4">
+   				<a href="#"><img src="https://www.unitedsoftlabs.com/public//assets/img/clients/aCart.png" class="img-fluid"></a>
+   			</div>
+
+   			<div class="col-lg-4 col-md-4 col-sm-4">
+   				<a href="#"><img src="https://www.unitedsoftlabs.com/public//assets/img/clients/cablir.png" class="img-fluid"></a>
+   			</div>
+   		</div>
+   	</div>
+   </section>
+
+
+   <section class="servises">
+   	<div class="container">
+   		<div class="row">
+   			<div class="col-lg-6 col-md-6 col-sm-4">
+   				<a href="#"><img src="https://www.unitedsoftlabs.com/public//assets/img/clients/kanvo.png" class="img-fluid"></a>
+   			</div>
+
+   			<div class="col-lg-6 col-md-6 col-sm-4">
+   				<a href="#"><img src="https://www.unitedsoftlabs.com/public//assets/img/clients/edustaad.png" class="img-fluid"></a>
+   			</div>
+
+   		</div>
+   	</div>
+   </section>
+
+
+  <!--  Next Section -->
+
+  <section id="Product">
+  	<h2 style="text-align: center; margin-top: 5%; text-transform: uppercase;font-weight: bold;">We take immense pride in our projects</h2>
+  	     <h5 style="text-align: center; margin-top: 2%;">Our Projects - Our Pride</h5>
+
+  	<div class="container-fluid colr">
+  		<div class="row">
+
+  			<div class="col-lg-6 col-md-12 col-sm-12" >
+  				<h1 class="cart">ACart</h1>
+  				<p class="cartp">aCart.pk is an innovative e-commerce platform that is striving to provide the online shoppers with a positive experience. </p>
+  			</div>
+            
+
+         <!--  data-aos="fade-down" 
+         data-aos="fade-left"
+         data-aos="fade-right"
+         data-aos="fade-right"  -->
+  			<div class="col-lg-6 col-md-12 col-sm-12">
+  				<img src="https://www.unitedsoftlabs.com/public//assets/img/aCart.png" class="img-fluid">
+  			</div>
+
+
+  		</div>
+  	</div>
+  </section>
+
+
+  <section class="anyy">
+  <div class="container-fluid colr1">
+  		<div class="row">
+
+  			<div class="col-lg-7 col-md-12 col-sm-12">
+  				<img src="https://www.unitedsoftlabs.com/public//assets/img/cablir.png" class="img-fluid" >
+  			</div>
+
+  			<div class="col-lg-4 col-md-10 col-sm-12 ">
+  				<h1 class="cart">ACart</h1>
+  				<p class="cartp">Cablir provides a solution for all your ride-hailing, delivery, and patient transfer needs.  </p>
+  			</div>
+  		</div>
+  	</div>
+  	</section>
+
+      
+
+  
+ <!--  mext sedction -->
+
+
+     <section id="imge1">
+     	<h1>Our Core Business Values</h1>
+     	<h5>Reliability Is Our Strength!</h5>
+
+     	<div class="container pt-5">
+     		<div class="row">
+     			<div class="col-lg-6 col-md-12 col-sm-12">
+     				<img src="https://www.unitedsoftlabs.com/public//assets/img/work/1.jpg" alt="pic" class="img-fluid">
+     			</div>
+
+
+     			<div class="col-lg-6 col-md-12 col-sm-12 info">
+     				<h3>High Quality Standards</h3>
+     				<p>When it comes to standards, USL matches the skills of its Quality Assurance team with the client's project development needs. Our team of experts monitors and measures the development process constantly and scales it to a higher level. </p>
+
+     				<p>Depending on the development of our application and products we undergo all-inclusive qualification test. Because of our extensive experience, we have been able to make sure that each project is completed with the highest level of customer satisfaction and standards. </p>
+
+     				<p>We take immense pride in being renowned for High Quality Standards because: </p>
+
+     				 <ul>
+                           <li>
+                            <h4>We use state-of-the-art technologies and techniques</h4>
+                            </li>
+                             <li>
+                              <h4>We do not compromise on Quality Assurance</h4>
+                              </li>
+                               <li>
+                               <h4>We strive to meet requirements in the best possible ways</h4>
+                                </li>
+                            </ul>
+     			</div>
+     		</div>
+     	</div>
+
+
+     </section>
+
+          <div class="container pt-5">
+     	<div class="row">
+
+     		<div class="col-lg-6 col-md-12 col-sm-12 info">
+     			 <h2>Leading Experts</h2>
+                            <p>
+                                We have a diverse workforce with the talent pool that spans from Pakistan to Europe. Our team of experts are competent and highly knowledgeable in their own domains. We have always used state-of-the-art technologies and techniques to make sure that each project delivers the desired results. What's more? We ensure that each project is bug-free and according to the requirements.
+                            </p>
+                            <p>
+                                Our Team Of Professionals Include:
+                            </p>
+                            <ul>
+                                <li>
+                                    <h4>Mobile/Web Application Developers </h4>
+                                </li>
+                                <li>
+                                    <h4>Quality Assurance</h4>
+                                </li>
+                                <li>
+                                    <h4>Digital Marketers</h4>
+                                </li>
+                                <li>
+                                    <h4>Graphic Designers and Animators </h4>
+                                </li>
+                            </ul>
+     		</div>
+
+     		<div class="col-lg-6 col-md-12 col-sm-12">
+     			<img src="https://www.unitedsoftlabs.com/public//assets/img/work/2.jpg" alt="pix" class="img-fluid">
+     		</div>
+     	</div>
+     </div>
+
+
+
+<!--    next -->
+
+    <div class="container pt-5">
+    	<div class="row">
+    		<div class="col-lg-6 col-md-12 col-sm-12">
+    			<img src="https://www.unitedsoftlabs.com/public//assets/img/work/3.jpg" alt="pix" class="img-fluid">
+    		</div>
+
+    		<div class="col-lg-6 col-md-12 col-sm-12 info">
+    			 <h3>Top-Notch Customer Support</h3>
+                            <p>
+                                Are you wondering how United Softlabs is making a big difference for its after sales services? The answer is quite simple. Our team members are trained, dedicated and are ready to assist you with all project stage queries and after sales technical support.
+                            </p>
+                            <p>
+                               We know that poor after-sales services can prevent companies from retaining clients. However, we assure that we will always provide our customers with the best and nothing less.
+                            </p>
+                            <p>
+                                With us, you will get: 
+                            </p>
+                            <ul>
+                                <li>
+                                    <h4>24/7 Call Support</h4>
+                                </li>
+                                <li>
+                                    <h4>Email Support </h4>
+                                </li>
+                                <li>
+                                    <h4>After-Sales Customer Service</h4>
+                                </li>
+                            </ul>
+    		</div>
+    	</div>
+    </div>
+
+
+
+    <!-- new secrio -->
+    <section id="contact">
+      <h2 class="form1">Contact Us</h2>
+      <h4 style="text-align: center;">Do you Have Any Questions?</h4>
+     <div class="container pt-5">
+          
+     	<div class="row">
+
+     		<div class="col-lg-8 col-md-12 col-sm-12">
+     			<h1>Let's Talk About Your Idea</h1>
+     			<form>
+  <div class="form-row">
+  	<div class="form-group col-md-12">
+    
+    <input type="text" class="form-control" id="inputAddress" placeholder="Name">
+  </div>
+    <div class="form-group col-md-6">
+      
+      <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+    </div>
+    <div class="form-group col-md-6">
+     
+      <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+    </div>
+
+    <div class="form-group col-md-12">
+        <textarea class="form-control" placeholder="Meassege" rows="10"></textarea>
+     </div>
+
+     <div>
+         <button type="submit" class="btn btn-primary ">Submit</button>
+          </div>
+  </div>
+  
+     			
+     		</div>
+
+     		<div class="col-md-4">
+                       
+                            <ul class="inf">
+                                <li>
+                                    <h4>OFFICE LOCATION</h4>
+                                    <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"> &nbsp; </i>
+                                    	<span style="background: lightgray">
+                                        United Softlabs Pvt Ltd,
+                                        <br>36 CCA, 4th floor, Block J Phase 5<br>D.H.A, Lahore, Punjab 54000, Pakistan
+                                    </span>
+                                     </div>
+                                   
+                                </li>
+                                <li>
+                                    <h4>Phone</h4>
+                                    <div class="icon"><i class="fa fa-phone" aria-hidden="true"> &nbsp;  </i>
+                                    	<span style="background: lightgray">+92 423 864 0253</span>
+                                     </div>
+                                    
+                                </li>
+                                <li>
+                                    <h4>Email</h4>
+                                    <div class="icon"><i class="fa fa-envelope-open-o" aria-hidden="true"></i>
+                                     </div>
+                                   
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                
+            </div>
+        </section>
+       
+
+
+     <section>
+     	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3400.0276571943036!2d74.47549521472568!3d31.550855581359485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39190e6990bf326d%3A0x878af3db39ae1660!2sMandianwala%20Road%2C%20Lahore%2C%20Punjab%2C%20Pakistan!5e0!3m2!1sen!2s!4v1612522386669!5m2!1sen!2s" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+     </section>
+
+
+
+
+     <!--  Next Serfvtiorf -->
+     <footer style="background: gray;" id="footerr">
+     	<div class="container">
+     		<div class="row">
+     			<div class="col-lg-4 col-md-6 col-sm-12 foot">
+     				<img src="webs/amaco/logo-light1.png" alt="logo" class="img-fluid im">
+     				<p>United softlabs is an innovative technology company with a team of engineers and programmers who are well trained, qualified and use state-of-the-art technology to achieve the desired results. </p>
+     				
+     			</div>
+
+     			<div class="col-lg-4 col-md-6 col-sm-12 foot">
+     				<h2>Company</h2>
+     				<ul>
+     					<li><a href="#">Home</a></li>
+     					<li><a href="#">About</a></li>
+     					<li><a href="#">Contact Us</a></li>
+     					<li><a href="#">Servies</a></li>
+     					<li><a href="#">Adress</a></li>
+     				</ul>
+     			</div>
+
+
+     			<div class="col-lg-4 col-md-6 col-sm-12 foot">
+     				
+                  <h2>Contact Info</h2>
+
+                  <ul>
+                  	<li>         
+                            <div class="icon"><i class="fa fa-home" aria-hidden="true"> &nbsp;</i>
+
+                        	<span class="website">Website:</span>
+                             <p>https://www.unitedsoftlabs.com/</p>
+                            </div>
+                                    
+                      </li>
+
+                      <li>         
+                            <div class="icon"><i class="fa fa-envelope-o" aria-hidden="true">&nbsp;</i>
+
+
+                        	<span class="website">Email:</span>
+                             <p>contact@unitedsoftlabs.com</p>
+                            </div>
+                                    
+                      </li>
+
+
+                       <li>
+                                   
+                                    <div class="icon1"><i class="fa fa-phone" aria-hidden="true"> &nbsp;  </i>
+                                    	<span class="website">PHONE</span>
+                                    	<p>+92 423 864 0253</p>
+                                     </div>
+                                    
+                                </li>
+
+                  </ul>
+                    
+     			</div>
+     		</div>
+     	</div>
+
+      
+     	 <div class="container-fluid" style="background: white;">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12 col-sm-12 footr">
+                            
+                                <p>&copy; Copyright <span class="YearJS"></span> All Rights Reserved by <a href="#">United Softlabs Pvt Ltd</a></p>
+                     
+
+                                <br><br>
+          
+                        </div>
+                    </div>
+                </div>
+        
+            
+     	
+     </footer>
+
+     
+  
+   
+	
+   
+
+ 
+
+
+ <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  
+   
+
+
+
+
+  <script>
+    AOS.init(
+      {
+      	 offset: 120,
+      	 duration: 1400,
+      }
+    	);
+  </script>
+   
+
+    <!-- Code of Update Date of Footer -->
+    <script>
+   	$(document).ready(function(){
+    $('.YearJS').text (new Date().getFullYear());
+    	});
+    </script>
+
+
+
+   <!-- Code of Scroll to change the Code -->
+ <script>
+  	$(window).scroll(function(){
+  		$('nav').toggleClass('scroll' ,$(this).scrollTop()>50)
+  	})
+  </script>
+
+
+
+</body>
+</html>
